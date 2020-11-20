@@ -1,5 +1,5 @@
-ages = {"Ahmed": 38, "Tayyem": 12}
+def square(x):
+    return x * x
 
-ages["Hassan"] = 75
-
-print(ages)
+for i in range(10):
+    print(square(i))
