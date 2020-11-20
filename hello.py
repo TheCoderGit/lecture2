@@ -1,9 +1,5 @@
-s = set()
+ages = {"Ahmed": 38, "Tayyem": 12}
 
-s.add(1)
-s.add(3)
-s.add(5)
-s.add(3)
+ages["Hassan"] = 75
 
-print(s)
-#set is a list with unique values
+print(ages)
