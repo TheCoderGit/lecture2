@@ -1,8 +1,7 @@
-x = 28
+name = "Ahmed" #list of strings
+coordinates = (10.0, 20.0) #tuble
+names = ["Alice", "Bob", "Charlie"] #list
 
-if x > 0:
-    print("x is positive")
-elif x < 0:
-    print("x is negative")
-else:
-    print("x is zero")
+print(name[0])
+print(coordinates[0])
+print(names[0])
