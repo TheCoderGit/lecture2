@@ -1,5 +1,10 @@
-def square(x):
-    return x * x
+class Point(object):
+    """test class"""
 
-for i in range(10):
-    print(square(i))
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+p = Point(3, 5)
+print(p.x)
+print(p.y)
